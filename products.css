@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: Arial;
+}
+
+nav {
+    background: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h2 {
+    color: orange;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    display: inline-block;
+    background: white;
+    padding: 35px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8f0fe;
+    font-family: Arial;
+}
+
+nav {
+    background: #152238;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h2 {
+    color: yellow;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background: white;
+    width: 70%;
+    margin: 80px auto;
+    padding: 60px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #aaa;
+}
+
+h1 {
+    color: #152238;
+    margin-bottom: 20px;
+}

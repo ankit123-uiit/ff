@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+nav {
+    background: #222;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h2 {
+    color: orange;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    padding: 120px 20px;
+    background: lightblue;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: orange;
+    padding: 12px 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
